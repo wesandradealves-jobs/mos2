@@ -1,0 +1,145 @@
+.lostfound-new-register {
+
+	.MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon .MuiAutocomplete-inputRoot{
+		padding-right: 0;
+		width: auto;
+		flex: 0 0 auto;
+		display: inline-flex;
+		//box-shadow: 1px 2px 1px #00000045;
+		border-radius: 3px;		
+		//background-color: white;
+		padding-right: 6px;
+	}
+
+	.MuiAutocomplete-endAdornment {
+		position: relative;
+		top: initial;
+		button.MuiButtonBase-root.MuiIconButton-root.MuiAutocomplete-popupIndicator {
+			display: none
+		}
+	}
+
+	.MuiAutocomplete-inputRoot[class*="MuiInput-root"] .MuiAutocomplete-input:first-child {
+		padding: 3px 12px 6px;
+		border: 0;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+		min-width: 100px;
+		font-size: .8rem;
+	}	
+
+	.MuiAutocomplete-root {
+		border: solid 1px #54bbab;
+		background-color: #f9f9f9;
+		border-radius: 5px;
+		.MuiFormControl-root {
+			flex-flow: row wrap;
+			padding: 6px 10px 7px;
+		}
+		.MuiAutocomplete-clearIndicator { 
+			padding: 0;
+			background: none !important;
+			margin: 0;
+		}
+	}
+
+  .description {
+    flex: 1;
+
+    border: 1px solid $light-turquoise;
+    border-radius: 5px;
+    background: #FFFFFF 0% 0% no-repeat padding-box !important;
+
+    font-family: "Roboto Mono";
+    @include font-size(14);
+
+    overflow: hidden;
+    height: 225px;
+
+    &.-filled {
+      border-color: $turquoise;
+    }
+  }
+
+  .lostfound-acceptance-channel {
+    display: flex;
+    align-items: center;
+
+    button {
+      margin-left: 15px;
+      background-color: #54bbab;
+      padding: 9px 26px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &:focus{
+        overflow: unset;
+      }
+
+      &:hover {
+        transition: all .4s ease 0s;
+        opacity: 0.8;
+      }
+    }
+  }
+  .observation {
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+      font-family: 'Arvo', Helvetica, Arial, sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      color:$purple;
+      text-transform: uppercase;
+    }
+
+    .comment {
+      margin-top: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      width: 100%;
+
+      .avatar {
+        width: 57px;
+        height: 57px;
+        line-height: 57px;
+        background: #EEEEEF;
+        color: $purple;
+        text-align: center;
+        border-radius: 50%;
+        margin: 0 auto;
+        font-size: 18px;
+      }
+
+      .textComment {
+        flex: 1;
+
+        border: 1px solid #9F9F9F;
+        margin-left: 54px;
+        border-radius: 5px;
+        background: #FFFFFF 0% 0% no-repeat padding-box !important;
+
+        font-family: "Roboto Mono";
+        @include font-size(14);
+        color: #706F6F;
+
+        overflow: hidden;
+        height: 45px;
+
+        &.-filled {
+          border-color: $turquoise;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,298 @@
+///* ========================================================================
+//   CUSTOMER CLIENT
+//   ======================================================================== */
+
+.client-side-header {
+  border: none;
+  margin-left: auto;
+  padding-left: 5px;
+  margin-right: auto;
+  padding-right: 5px;
+
+  margin-bottom: 100px;
+
+  width: 100%;
+  max-width: 480px;
+
+  flex-shrink: 0;
+
+  div.search {
+    display: flex;
+    border: 0;
+    align-items: center;
+    background-color: #f9f9f9;
+    height: 36px;
+
+    & + div {
+      margin-top: 50px;
+    }
+
+    svg {
+      margin-right: 16px;
+      opacity: 0.3;
+    }
+
+    .basic-multi-select {
+      position: relative;
+      padding-bottom: 2px;
+
+      div[class$="-control"] {
+        border: 0;
+      }
+
+      div[class$="-menu"] {
+        position: absolute;
+        left: -44px;
+        margin: 2px 0 0;
+        width: calc(100% + 52px);
+      }
+
+      div[class$="placeholder"] {
+        display: flex;
+        margin: 0px;
+        @include font-size(14);
+      }
+    }
+  }
+
+  div.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+    button {
+      background-color: Transparent;
+      background-repeat:no-repeat;
+      border: none;
+      overflow: hidden;
+      outline: none;
+    }
+
+
+
+    .client {
+      display: flex;
+      width: 100%;
+
+      img {
+        height: 60px;
+      }
+
+      .header {
+        padding-left: 20px;
+        height: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .title {
+          text-transform: uppercase;
+          margin-bottom: 5px;
+          padding-right: 3px;
+          text-align: left;
+          width: 100%;
+          max-height: 50px;
+          overflow: hidden;
+
+        }
+      }
+
+      .title.-small {
+        font-family: 'Arvo', Helvetica, Arial, sans-serif;
+        color: $grey;
+        @include font-size(10);
+        font-weight: 400;
+      }
+    }
+
+
+    button {
+      img {
+        width: 25px;
+        height: 25px;
+      }
+
+      img:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+
+  div.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 45px;
+
+    padding-bottom: 60px;
+    border-bottom: 1px solid #ccd6dd;
+
+
+    div.customer-avatar {
+      margin-top: 10px;
+      padding-left: 0px !important;
+
+      div#border {
+          width: 120px;
+          height: 120px;
+          border: 3px solid $turquoise;
+          border-radius: 50%;
+          padding: 7px 0px;
+          margin: 0 auto;
+
+          div.avatar {
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            background: $light-grey;
+            color: $turquoise;
+            text-align: center;
+            border-radius: 50%;
+            margin: 0 auto;
+            @include font-size(32);
+        }
+      }
+    }
+
+
+    div.customer-info {
+      height: 120px;
+      margin-left: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-top: 10px;
+      @extend ._no-padding;
+
+      .info {
+          margin-bottom: 0px;
+          padding: 8px 6px 8px 6px;
+          border: 1px solid $light-grey;
+          border-radius: 5px;
+          background: #fff;
+          @include font-size(12);
+          font-family: "Roboto Mono", Helvetica, Arial, sans-serif;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding-right: 5px;
+
+          position: relative;
+      }
+
+      .info span {
+        display: inline-block;
+        width: 100px;
+        color: #707070;
+      }
+
+      > .info > .tooltip {
+          width: 180px;
+          background: #fff;
+          color: $black;
+          display: block;
+          left: 0;
+          top: 0;
+          opacity: 1;
+          padding: 6px;
+          pointer-events: none;
+          position: absolute;
+          text-align: center;
+          z-index: 1;
+          @include font-size(10);
+          border-left: 2px solid $light-grey;
+          border-right: 2px solid $light-grey;
+          border-bottom: 2px solid $light-grey;
+          -webkit-transition: all .25s ease-out;
+            -moz-transition: all .25s ease-out;
+              -ms-transition: all .25s ease-out;
+              -o-transition: all .25s ease-out;
+                  transition: all .25s ease-out;
+
+
+          &.-top { margin-top: 50px; }
+
+
+          &.-show {
+            opacity: 1;
+            pointer-events: auto;
+            -webkit-transform: translateY(0px);
+            -moz-transform: translateY(0px);
+            -ms-transform: translateY(0px);
+            -o-transform: translateY(0px);
+            transform: translateY(0px);
+          }
+
+          &.-hide {
+            opacity: 0;
+          }
+
+          @include breakpoint(xl) { &.-top { margin-top: 44px; } }
+
+          > .item {
+              width: 100%;
+              display: inline-block;
+              padding: 5px 0;
+              border-top: 1px solid $light-grey;
+              word-wrap: break-word;
+          }
+
+          > .item:first-child{
+            padding-top: 0;
+            border-top: none;
+          }
+
+          > .item:last-child{
+            padding-bottom: 0;
+          }
+      }
+
+      .info > button {
+        background-color: Transparent;
+        background-repeat:no-repeat;
+        border: none;
+        overflow: hidden;
+        outline: none;
+      }
+
+      .info img {
+        padding-left: 5px;
+        opacity: 0.5;
+
+        &:hover{
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+
+  div.footer {
+    margin-top: 40px;
+
+    h5 {
+      text-align: left;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+    }
+
+    p {
+      padding: 5px 0;
+      margin: 0;
+      text-align: start;
+      @include font-size(12);
+
+      strong {
+        text-transform: uppercase;
+        font-weight: 600;
+        color: $dark-grey
+      }
+
+      span {
+        color: $grey;
+      }
+    }
+  }
+}

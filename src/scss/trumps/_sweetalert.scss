@@ -1,0 +1,56 @@
+.swal2-confirm {
+  font-family: "Arvo", Helvetica, Arial, sans-serif !important;
+  font-weight: 600 !important;
+  color: #fff !important;
+  padding: 10px 20px !important;
+  border: none !important;
+  border-radius: 20px !important;
+  text-transform: uppercase !important;
+  text-align: center !important;
+  background-color: $turquoise !important;
+  font-size: 14px !important;
+}
+
+.swal2-cancel {
+  font-family: "Arvo", Helvetica, Arial, sans-serif !important;
+  font-weight: 700 !important;
+  color: #fff !important;
+  padding: 10px 20px !important;
+  border: none !important;
+  border-radius: 20px !important;
+  text-transform: uppercase !important;
+  text-align: center !important;
+  background-color: $grey !important;
+  font-size: 14px !important;
+}
+.swal2-styled {
+  box-shadow: none !important;
+  &:focus {
+    box-shadow: none !important;
+  }
+}
+
+.swal2-content {
+  font-family: "Roboto Mono", Helvetica, Arial, sans-serif !important;
+  text-transform: uppercase !important;
+  font-size: 14px !important;
+}
+
+.swal2-content h2 {
+  color: #563062 !important;
+  text-transform: uppercase !important;
+}
+
+.loading-title {
+  margin-top: 20px;
+  color: $purple;
+  text-transform: uppercase;
+}
+
+.loading-actions {
+display: none !important;
+}
+
+.loading-content {
+  padding: 30px;
+}

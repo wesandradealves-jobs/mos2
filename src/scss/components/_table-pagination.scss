@@ -1,0 +1,56 @@
+.table-pagination {
+  border: unset;
+  padding: unset;
+  color: unset;
+
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+
+
+
+  .left-side {
+    line-height: 45px;
+    font-family: "Roboto Mono";
+    color: #706F6F;
+
+  }
+
+  .right-side {
+    line-height: 45px;
+    display: flex;
+    font-family: "Roboto Mono";
+
+
+    .action {
+      line-height: 45px;
+      background-color: Transparent;
+      background-repeat:no-repeat;
+      border: none;
+      outline: none;
+      transition: unset;
+
+      font-family: "Roboto Mono";
+
+      &.-current {
+        background: #d5dbd9;
+      }
+      &.-disable {
+        display: none;
+      }
+
+      &:hover{
+        background: #cbe6e1;
+        border: 1px solid #54bbab;
+        color: #fff
+      }
+    }
+
+    span {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+}

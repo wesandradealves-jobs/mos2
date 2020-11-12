@@ -1,0 +1,302 @@
+///* ========================================================================
+//   FORMS
+//   ======================================================================== */
+
+label,
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: $input-color;
+  margin: 0;
+}
+
+label {font-family: $heading-font-family;}
+
+input {
+  &:-webkit-autofill,
+  &:-webkit-autofill:hover,
+  &:-webkit-autofill:focus,
+  &:-webkit-autofill:active {
+    -webkit-transition: 'color 9999s ease-out, background-color 9999s ease-out';
+    -webkit-transition-delay: 9999s;
+  }
+
+  font-family: $font-family;
+  @include font-size(14);
+  color: #706F6F;
+}
+
+[type="text"],
+[type="email"],
+[type="password"],
+[type="tel"],
+[type="number"],
+[type="date"] {
+  width: $container-full;
+  height: $input-height;
+  padding: 10px;
+  background-color: $white-grey;
+  border: 0;
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  border-radius: 3px;
+  font-family: $font-family;
+  border-radius: 5px;
+}
+
+input:valid { border: solid 1px $turquoise; }
+input:invalid { border: solid 1px $light-turquoise }
+
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+  -webkit-appearance: none;
+}
+
+::-webkit-search-cancel-button,
+::-webkit-clear-button {
+  -webkit-appearance: none;
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg fill="%23000" fill-opacity=".54" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M12,2C17.53,2 22,6.47 22,12C22,17.53 17.53,22 12,22C6.47,22 2,17.53 2,12C2,6.47 6.47,2 12,2M15.59,7L12,10.59L8.41,7L7,8.41L10.59,12L7,15.59L8.41,17L12,13.41L15.59,17L17,15.59L13.41,12L17,8.41L15.59,7Z"/%3E%3Cpath d="M0 0h24v24H0z" fill="none"/%3E%3C/svg%3E');
+  color: rgba(0, 0, 0, 0.54);
+  cursor: pointer;
+  height: 1.5rem;
+  margin-right: 0;
+  width: 1.5rem;
+}
+
+::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  background-image: url('/icons/eventos.svg');
+  width: 14px;
+  height: 18px;
+  cursor: pointer;
+  margin-left: .5rem;
+  position: relative;
+}
+::-webkit-calendar-picker-indicator:hover {
+  -webkit-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.04);
+}
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+// Placeholder Color
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: $input-placeholder-color;
+  font-family: $font-family;
+  @include font-size(14);
+}
+
+input:-moz-placeholder, textarea:-moz-placeholder {
+  color: $input-placeholder-color;
+  font-family: $font-family;
+  @include font-size(14);
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: $input-placeholder-color;
+  font-family: $font-family;
+  @include font-size(14);
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: $input-placeholder-color;
+  font-family: $font-family;
+  @include font-size(14);
+}
+
+// Text Area
+textarea {
+    width: $container-full;
+    padding: 10px;
+    background-color: $white-grey;
+    overflow: auto;
+    border-radius: 3px;
+    border: solid 1px $turquoise;
+    resize: none;
+
+    &:focus {
+      box-shadow: none;
+      outline: none;
+      border: none; }
+}
+
+// Select
+select {
+    width: $container-full;
+    font-family: $font-family;
+    @include font-size(14);
+    color: #706F6F;
+    text-transform: none;
+    height: $input-height;
+    padding: 0 10px;
+    background-color: $white-grey;
+    border: 0;
+    border-radius: 5px;
+    border: solid 1px $light-turquoise;
+
+    &.-selected {
+      border: solid 1px $turquoise;
+    }
+
+    &:focus { box-shadow: none; }
+
+}
+
+select:disabled { border: 0 }
+
+.basic-multi-select {
+  width: 100%;
+
+  div[class$="-menu"] {
+    margin-top: 0;
+  }
+
+  div[class$="control"] {
+    width: 100%;
+    text-transform: none;
+    height: $input-height;
+    padding: 0 10px;
+    background-color: $white-grey;
+    border: 0;
+    border-radius: 5px;
+    border: solid 1px $light-turquoise;
+
+    box-shadow: none;
+
+    input {
+      font-family: $font-family;
+      @include font-size(14);
+      @include line-height(20);
+      color: #706F6F !important;
+      height: 100%;
+
+      &:focus {
+        box-shadow: none;
+        outline: 0;
+      }
+    }
+
+    & > div {
+      position: initial;
+      overflow: unset;
+      & > div {
+        margin-left: 4px;
+
+        div:first-child {
+          font-family: $font-family;
+          @include font-size(14);
+          color: #706F6F;
+        }
+      }
+    }
+
+    div[class$="-multiValue"] {
+      background-color:#fff;
+      color: #706F6F;
+    }
+
+    div[class$="-singleValue"] {
+      margin-top: 0 !important;
+      color: #706F6F;
+    }
+
+    span[aria-live="polite"] {
+      box-shadow: none;
+    }
+
+    span[aria-live="polite"] + div {
+      box-shadow: none;
+    }
+
+    span[class$="-indicatorSeparator"] {
+      display: none;
+    }
+  }
+}
+
+
+optgroup { font-weight: 700; }
+
+// Buttons
+button {
+    border-radius: 0;
+    overflow: visible;
+    text-transform: none;
+    cursor: pointer;
+}
+
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+    -webkit-appearance: button;
+    border-radius: 0;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+img[disabled],
+select[disabled],
+textarea[disabled],
+button[disabled],
+html input[disabled] {
+  pointer-events: none;
+  cursor: not-allowed;
+
+}
+
+textarea[disabled] {
+  border: none;
+  font-family: "Roboto Mono", Helvetica, Arial, sans-serif;
+  @include font-size(14);
+  color: #706F6F
+}
+
+button[disabled] {
+  opacity: .4;
+}
+
+form#login-prompt-screen {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 5em;
+}

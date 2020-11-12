@@ -1,0 +1,28 @@
+.client-form {
+  padding: 20px;
+
+
+  h2 {
+    display: block;
+    text-align: center;
+    color: $purple;
+    font-weight: 600;
+    @include font-size(16);
+  }
+
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+#client-form{
+  border:none;
+
+
+}

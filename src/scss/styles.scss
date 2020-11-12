@@ -1,0 +1,79 @@
+///* ========================================================================
+//   STYLESHEETS
+//   ======================================================================== */
+
+// Settings
+@import "settings/_core";
+
+// Tools
+@import "tools/_breakpoint";
+@import "tools/_font-size";
+@import "tools/_line-height";
+
+// Generic
+@import "generic/_box-sizing";
+@import "generic/_reset";
+
+// Base
+@import "base/_page";
+@import "base/_typography";
+@import "base/_forms";
+@import "base/_tables";
+@import "base/_layout";
+
+// Objects
+@import "objects/_page-title";
+@import "objects/_label-input";
+@import "objects/_sac";
+@import "objects/_coalition";
+@import "objects/_emailBuilder";
+@import "objects/_input-fields";
+@import "objects/_components-subtitle";
+@import "objects/_switches";
+@import "objects/loan";
+@import "objects/_select-input";
+@import "objects/_datatable";
+@import "objects/_storekeeper";
+@import "objects/lostfound";
+
+// Components
+@import "components/_action-menu";
+@import "components/_box";
+@import "components/_breadcrumbs";
+@import "components/_buttons";
+@import "components/_carousel";
+@import "components/_customer-client";
+@import "components/_client-side-header";
+@import "components/_client-form";
+@import "components/_data-footer";
+@import "components/_dropdownspot";
+@import "components/_search";
+@import "components/_spinner";
+@import "components/_side-menu";
+@import "components/_tabs";
+@import "components/_user-menu";
+@import "components/_checkbox";
+@import "components/_radio-button";
+@import "components/_drag-drop";
+@import "components/_detailing-user";
+@import "components/_table";
+@import "components/_muidatable";
+@import "components/_table-pagination";
+@import "components/_tooltip";
+@import "components/_mytooltip";
+
+// Trumps
+@import "trumps/_helpers";
+@import "trumps/_sweetalert";
+@import "trumps/_am4chart";
+
+//sections
+@import "sections/loan-new-register.scss";
+@import "sections/loan-items-pagination.scss";
+@import "sections/loan-edition-table.scss";
+@import "sections/loan-report.scss";
+@import "sections/lostfound-report.scss";
+@import "sections/lostfound-new-register.scss";
+
+//
+@import "./custom";

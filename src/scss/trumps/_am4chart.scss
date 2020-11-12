@@ -1,0 +1,57 @@
+.amcharts-amexport-menu {
+  box-shadow: 0px 10px 15px #0000004A;
+  padding: 0px 20px 0px !important;
+  z-index: 9998;
+  background-color: white !important;
+}
+
+.amcharts-amexport-item {
+  background-color: transparent !important;
+}
+
+.amcharts-amexport-menu-level-0  {
+  box-shadow: none !important;
+  opacity: 1 !important;
+}
+
+.amcharts-amexport-item-level-1 {
+  font-family: 'Arvo' !important;
+  font-weight: bold !important;
+  cursor: pointer !important;
+  color: #563062 !important;
+  border-bottom: 1px solid #b3a6af !important;
+
+  &:last-child {
+    border: 0 !important;
+  }
+
+  a {
+    opacity: 0.7;
+
+    &:hover {
+      transition: all .4s ease 0s;
+      opacity: 1;
+    }
+  }
+
+}
+.amcharts-amexport-item-level-2 {
+  font-weight: 700 !important;
+  cursor: pointer !important;
+  color: #563062 !important;
+  border-bottom: 1px solid #b3a6af !important;
+
+  &:last-child {
+    border: 0 !important;
+  }
+}
+
+
+
+.amcharts-amexport-icon {
+  min-height: 25px !important;
+}
+
+.amcharts-amexport-top {
+  top: unset !important;
+}

@@ -1,0 +1,89 @@
+///* ========================================================================
+//   MENU
+//   ======================================================================== */
+
+#wrapper.open .wrapper-sidemenu { left: 150px; }
+
+.wrapper-sidemenu {
+  margin-left: -150px;
+  left: -30px;
+  width: 250px;
+  position: fixed;
+  height: 100%;
+  z-index: 999;
+  transition: all .4s ease 0s;
+  background: #fff;
+  border-right: 1px solid $light-grey;
+  -webkit-box-shadow: 5px 0 5px -2px $light-grey;
+  box-shadow: 5px 0 5px -2px $light-grey;
+
+  &:hover {
+    left: 150px;
+    width: 250px;
+  }
+}
+
+.side-menu {
+  width: $container-full;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+  text-indent: 20px;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  /*> .header {
+    width: $container-full;
+    height: 80px;
+    display: block;
+    color: $black;
+    @include font-size(18);
+    @include line-height(60);
+  }
+
+  > .header > .icon {
+    width: 50px;
+    float: right;
+    margin-right: 27.5px;
+  }*/
+
+  > .list {
+    height: 50px;
+    opacity: 0.5;
+
+    &:hover { 
+      opacity: 1; 
+      transition: all .4s ease 0s;
+      color: $purple;
+      border-left: 3px solid $purple;
+    }
+  }
+
+  > .list > .link {
+    width: $container-full;
+    display: block;
+    text-decoration: none;
+    color: $purple;
+    vertical-align: middle;
+    @include font-size(14);
+    @include line-height(35);
+
+    > .icon {
+      float: right;
+      margin-right: 25px;
+    }
+  }
+  
+  > .footer {
+    width: $container-full;
+    height: 40.5px;
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    right: 20px;
+    transition: all .6s ease 0s;
+    text-align: right;
+  }
+}

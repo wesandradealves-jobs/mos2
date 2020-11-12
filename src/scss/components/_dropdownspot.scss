@@ -1,0 +1,16 @@
+div[class^="__react_bs_dd_menuItems"] {
+  left: -50px !important;
+  padding: 0px 20px 0px !important;
+
+  box-shadow: 0px 10px 15px #0000004A !important;
+
+  > div {
+    padding-top: 15px !important;
+    text-align: left !important;
+    border-bottom: 1px solid $light-purple !important;
+
+    &:last-child {
+      border-bottom: 0 !important;
+    }
+  }
+}

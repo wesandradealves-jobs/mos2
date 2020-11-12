@@ -1,0 +1,96 @@
+///* ========================================================================
+//   TABS
+//   ======================================================================== */
+
+
+.content {
+    width: 100%;
+    margin-top: -1px;
+    margin-bottom: 50px;
+    padding: 50px 18px 32px;
+    left: 0;
+    // margin-left: 70px;
+    // display: none;
+    // position: absolute;
+    z-index: 0;
+    background-color: $background-color;
+    border: 1px solid $light-turquoise;
+    display: flex;
+}
+
+
+.nav-tab {
+    @extend ._left;
+
+    &:first-child {
+      label {
+        margin-left: 19px;
+      }
+    }
+
+    >.label {
+        width: 200px;
+        padding: $grid-gutter;
+        margin-left: 7px;
+        cursor: pointer;
+        background-color: $white-blue;
+        color: $dark-turquoise;
+        font-family: $heading-font-family;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        border: 1px solid $light-turquoise;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        @include font-size(14);
+        @include line-height(14);
+
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        >.icon {
+            margin-right: 10px;
+            height: 15px;
+            width: 15px;
+        }
+    }
+
+    label:hover {
+        background: #fff;
+    }
+
+    .obs {
+        padding-top: 100px;
+        font-weight: 100;
+        @include font-size(10);
+    }
+
+
+    >.tabs {
+        display: none;
+
+        &:checked~label {
+            background-color: #fff;
+            border-bottom: 1px solid #fff;
+        }
+
+        &:checked~.content {
+            display: block;
+        }
+    }
+}
+
+// TO DO modificar quando inserir a nova tabela
+.title-tab {
+    background-color: $white-blue;
+    color: $dark-grey;
+    font-weight: 600;
+}
+
+.obs {
+    padding-top: 100px;
+    font-weight: 100;
+    @include font-size(10);
+}

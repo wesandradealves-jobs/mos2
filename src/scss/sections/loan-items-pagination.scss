@@ -1,0 +1,61 @@
+
+.pagination {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+
+  .left-side {
+    line-height: 45px;
+    font-family: "Roboto Mono";
+    color: #707070;
+
+  }
+
+  .right-side {
+    line-height: 45px;
+    display: flex;
+    font-family: "Roboto Mono";
+
+
+    .action {
+
+      line-height: 45px;
+
+      &.-number {
+        font-family: "Roboto Mono";
+        color: #707070;
+      }
+
+      color: $turquoise;
+      background-color: Transparent;
+      background-repeat:no-repeat;
+      border: none;
+      outline: none;
+      transition: unset;
+
+      border-radius: 5px;
+
+      &.-current {
+        background: #ECECEC;
+        border: 1px solid #CBE6E1;
+      }
+      &.-disable {
+        display: none;
+      }
+
+      &:hover{
+        background: #cbe6e1;
+        border: 1px solid #54bbab;
+        color: #fff;
+        font-weight: 700;
+      }
+    }
+
+    span {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+///* ========================================================================
+//   LABEL INPUT
+//   ======================================================================== */
+
+.label-input {
+    color: $dark-grey;
+    font-weight: 700;
+    font-family: 'Arvo';
+    text-transform: uppercase;
+    display: block;
+    @include font-size(12);
+    margin-bottom: 3px;
+
+    &.-tab {
+        padding-top: 5px;
+    }
+
+    &.-subtitle{
+      @include font-size(14);
+    }
+
+}
+.input-group-title {
+    color: $dark-grey;
+    font-weight: 700;
+    font-family: $heading-font-family;
+    text-transform: uppercase;
+    display: block;
+    @include font-size(12);
+    @include line-height(20);
+
+    &.-tab {
+        padding-top: 5px;
+    }
+
+}

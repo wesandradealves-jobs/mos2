@@ -1,0 +1,60 @@
+.container {
+  //Paulo - Comentado enquando não tem o menu lateral
+  //padding-left: 80px;
+  overflow-x: hidden;
+}
+
+.container-sac {
+  width: $container-full;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.modal-container {
+  padding: 60px;
+}
+
+.modal-dialog {
+  margin: auto;
+  max-width: 70% !important;
+}
+
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media (min-width:800px) {
+  .container {
+    max-width: 1000px;
+  }
+
+  .radio-button-container {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+}
+
+/* big landscape tablets, laptops, and desktops */
+@media (min-width:1024px) {
+  .container {
+    max-width: 1425px;
+  }
+
+  .radio-button-container {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+}
+
+/* hi-res laptops and desktops */
+@media (min-width:1280px) {
+  .container {
+    max-width: 1425px;
+  }
+}
+
+/* big screens */
+@media (min-width:1440px) {
+  .container {
+    max-width: 3000px;
+  }
+}

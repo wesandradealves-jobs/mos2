@@ -1,0 +1,14 @@
+[
+  {
+    "id": "BB",
+    "name": "Banco do Brasil",
+    "account": "5131055-9",
+    "agency": "00001"
+  },
+  {
+    "id": "CA",
+    "name": "Caixa Economica",
+    "account": "54387985-9",
+    "agency": "06663"
+  }
+]

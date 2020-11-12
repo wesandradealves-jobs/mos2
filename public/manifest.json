@@ -1,0 +1,25 @@
+{
+  "short_name": "Spot Metrics",
+  "name": "Spot Metrics - mOS",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "apple-touch-icon-72x72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "apple-touch-icon-114x114.png",
+      "type": "image/png",
+      "sizes": "114x114"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

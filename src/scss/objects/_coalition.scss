@@ -1,0 +1,488 @@
+@media (min-width: 1200px) {
+  .modal-xl {
+    max-width: 1177px;
+  }
+}
+
+.searchCoalition {
+  border: 0px;
+}
+
+#until {
+  margin-left: 15px;
+}
+
+.form-coalition-note {
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+.DateInput {
+  color: #706F6F;
+  width: 105px;
+}
+
+.DateInput_input{
+  @include font-size(14);
+  color: #706F6F;
+  width: 100% !important;
+  font-weight: 400;
+}
+
+.DateRangePickerInput {
+  border: 0;
+}
+
+.DateRangePickerInput_arrow {
+  margin-left: 0 !important;
+  margin-right: 10px !important;
+}
+
+.CalendarMonth_caption  {
+  color: #706F6F;
+  @include font-size(16);
+}
+
+
+.DateRangePickerInput_arrow{
+  margin-left:15px;
+  margin-right: 15px;
+}
+
+.DayPickerKeyboardShortcuts_buttonReset {
+  display: none;
+}
+
+
+
+.CalendarDay__selected_span {
+  background-color: $light-turquoise !important;
+  color: $black;
+  border: $turquoise 1px solid;
+}
+
+
+
+.CalendarDay__selected {
+  color: white;
+  background: $turquoise;
+}
+
+.DateRangePicker_picker {
+  top: 45px !important;
+  z-index: 999;
+}
+
+.DateInput_fang {
+  top: 35px !important;
+}
+
+
+
+
+
+.CalendarDay__selected:hover {
+  background: $dark-turquoise;
+  color: white;
+}
+
+div.custom-search-input {
+  display: flex;
+  box-shadow: 0px 2px $light-grey;
+
+  align-items: center;
+  background-color: #f9f9f9;
+  height: 36px;
+  padding-left: 0.5px;
+  padding-top: 0.5px;
+  padding-bottom: 0.5px;
+  border-radius: 5px;
+
+  & + div {
+    margin-top: 50px;
+  }
+
+  svg {
+    margin-right: 16px;
+    opacity: 0.5;
+  }
+
+  input {
+    flex: 1;
+    border: 0;
+    height: 100%;
+
+    &::placeholder {
+      color: $input-placeholder-color;
+    }
+
+    &:focus {
+      box-shadow: none;
+      outline: none;
+    }
+  }
+}
+
+.coaliton-form-error{
+  border-color: #c53030 !important;
+}
+
+.move-points{
+    margin: 80px auto;
+    max-height: 441px;
+
+    padding: 3% 18% 4%;    ;
+
+    background-color: $background-color;
+    border: 1px solid $turquoise;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+
+    .row-btn-save {
+      margin-top: 30px !important;
+    }
+
+    .subtitle {
+      display: inline-block;
+      margin-bottom: 48px;
+    }
+
+    input[type=number] {
+      -moz-appearance: textfield;
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+}
+
+.button-take-benefits {
+    display: block;
+    margin:auto;
+    font-weight: 600;
+    @include font-size(10);
+    cursor: pointer;
+    opacity: 1;
+    background: $turquoise;
+    color: #fff;
+    padding: 8px 15px;
+    width: auto;
+    border: none;
+    border-radius: 20px !important;
+
+  &:hover {
+    transition: all .4s ease 0s;
+    opacity: 0.8;
+  }
+
+  &:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+}
+
+div.tool-tip{
+  display: flex;
+  align-items: 'center'
+}
+
+p.column-overflow {
+
+  max-width: 350px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 0px !important;
+  display: inline-block;
+  text-align: center;
+
+  &:hover {
+    text-overflow: clip;
+    white-space: normal;
+    word-break: break-word;
+  }
+}
+
+.modal-rechargeableBenefit {
+  flex: 1;
+  padding: 3.4% 13.25% 7.6%;
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    h5 {
+      color: $purple;
+    }
+  }
+
+  .cards {
+    margin-top: 25px;
+    margin-right: 5px;
+    max-height: 400px;
+    overflow-y: auto;
+
+    .card {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      border: 0;
+      border-bottom: 1px solid $light-grey;
+
+      .left {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border: 0;
+        padding: 12px 0;
+
+        img {
+          height: 17px;
+          width: 40px;
+        }
+
+        h6 {
+          margin-left: 10px;
+          color: #706F6F;
+        }
+      }
+    }
+  }
+
+  .row-btn-save {
+    margin-top: 40px;
+  }
+}
+
+.modal-coalition {
+  flex: 1;
+  padding: 3.4% 13.25% 7.6%;
+  position: relative;
+  height: 100%;
+  display: flex;
+
+  form {
+    flex: 1;
+  }
+
+
+  h5 {
+    color: $purple;
+  }
+
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+.div-rechargeable {
+  display: flex;
+  flex-direction: column;
+
+  .radio-rechargeable {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+
+    .radiobox {
+      min-width: 80px;
+      display: flex;
+
+      align-items: center;
+      font-family: $font-family;
+      color: $dark-grey;
+      text-transform: uppercase;
+      @include font-size(14);
+
+      >input {
+          position: absolute;
+          display: inline-block;
+          opacity: 0;
+          cursor: pointer;
+          margin-right: 10px;
+
+          &:checked~.radiomark:after {
+              display: block;
+          }
+      }
+    }
+
+    .radiobox:hover input~.radiomark {
+      background-color: $white-blue;
+    }
+
+    .radiomark {
+      position: relative;
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      border: solid 1px $turquoise;
+      margin-right: 5px;
+    }
+
+    .radiomark:after {
+      top: 3px;
+      left: 3px;
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+      // background: $dark-turquoise;
+      background: $turquoise;
+      content: "";
+      position: absolute;
+      display: none;
+    }
+  }
+}
+
+.div-loyalties {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-close-button {
+  align-self: flex-end;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  outline: none;
+  position: absolute;
+  top: 3.5%;
+  right: 12px;
+  z-index: 1;
+  width: 43px;
+  height: 43px;
+
+  &:focus{
+    box-shadow: none;
+    outline: none;
+  }
+
+  img {
+    width: 25px !important;
+    transition: opacity 0.3s;
+
+    &:hover{
+      cursor: pointer;
+      opacity: 0.6;
+    }
+  }
+}
+
+#modal-header-control{
+  border:none;
+
+  .close {
+
+    &:focus { outline: 0; }
+
+    span {
+      display: block;
+      color: rgb(255, 255, 255);
+      background-color: $turquoise;
+      opacity: 0.8;
+      padding: 4px 6px;
+      border-radius: 50%;
+      transition: all 0.3s;
+      font-weight: 700;
+      @include font-size(14);
+
+      &:hover{
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+
+.div-checkbox-coalition {
+  display: flex;
+  margin-top: 5px;
+  flex-wrap: wrap;
+
+  .label-coalition {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-family: $font-family;
+    color: $dark-grey;
+    text-transform: uppercase;
+    @include font-size(14);
+
+    > input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+    }
+  }
+
+  .label-coalition:hover input~.checkmark-coalition {
+    background-color: $white-blue;
+  }
+
+  .checkmark-coalition {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 23px;
+    border: solid 1px $turquoise;
+    margin-right: 5px;
+  }
+
+  .checkmark-coalition:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+
+  input:checked ~ .checkmark-coalition:after {
+    display: block;
+  }
+
+  .checkmark-coalition:after {
+    left: 8px;
+    top: 1px;
+    width: 5px;
+    height: 12px;
+    content: "";
+    border: solid $dark-turquoise;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}
+
+#checkbox-ilimitaded {
+  @include font-size(12);
+}
+
+.no-authorization {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

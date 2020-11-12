@@ -1,0 +1,20 @@
+///* ========================================================================
+//   LABEL INPUT
+//   ======================================================================== */
+
+[class^="select-input"] {
+    width: $container-full;
+    font-family: $font-family;
+    text-transform: none;
+    height: $input-height;
+    padding: 0 10px;
+    background-color: $white-grey;
+    border: 0;
+    border-radius: 3px;
+    border: solid 1px $turquoise;
+    color: $input-color;
+    margin: 0;
+
+    &:focus { box-shadow: none; outline: none; }
+
+}

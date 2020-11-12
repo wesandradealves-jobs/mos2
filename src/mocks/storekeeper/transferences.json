@@ -1,0 +1,419 @@
+[
+  
+
+  {
+    "id": 1,
+    "date": "13/07/2020 às 13:21",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 50836.20
+  },
+  {
+    "id": 2,
+    "date": "13/07/2020 às 13:21",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 5700.32
+  },
+
+  {
+    "id": 3,
+    "date": "23/07/2020 às 13:21",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 336.20
+  },
+  {
+    "id": 4,
+    "date": "1/07/2020 às 12:41",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 5700.32
+  },
+
+  {
+    "id": 5,
+    "date": "14/07/2020 às 10:20",
+    "bank": "Caixa Econômica Federal",
+    "account": "54387985-9",
+    "value": 20546.23
+  },
+
+  {
+    "id": 6,
+    "date": "20/07/2020 às 13:21",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 5186.20
+  },
+  {
+    "id": 7,
+    "date": "25/07/2020 às 12:41",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 5700.32
+  },
+
+
+
+
+
+  {
+    "id": 8,
+    "date": "13/06/2020 às 13:21",
+    "bank": "Caixa Econômica Federal",
+    "account": "54387985-9",
+    "value": 20546.23
+  },
+  {
+    "id": 9,
+    "date": "10/06/2020 às 13:21",
+    "bank": "Caixa Econômica Federal",
+    "account": "54387985-9",
+    "value": 3299.00
+  },
+  {
+    "id": 10,
+    "date": "24/06/2020 às 13:21",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 1123.90
+  },
+
+  {
+    "id": 11,
+    "date": "10/06/2020 às 13:21",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 4123.90
+  },
+
+  {
+    "id": 12,
+    "date": "07/06/2020 às 13:21",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 1023.90
+  },
+  {
+    "id": 13,
+    "date": "03/06/2020 às 13:21",
+    "bank": "Caixa Econômica Federal",
+    "account": "54387985-9",
+    "value": 3299.00
+  },
+
+
+
+
+
+
+  {
+    "id": 14,
+    "date": "03/05/2020 às 13:21",
+    "bank": "Caixa Econômica Federal",
+    "account": "54387985-9",
+    "value": 3299.00
+  },
+
+  {
+    "id": 15,
+    "date": "21/05/2020 às 13:21",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 5866.23
+  },
+
+  {
+    "id": 16,
+    "date": "13/05/2020 às 13:21",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 5866.23
+  },
+
+  {
+    "id": 17,
+    "date": "15/05/2020 às 17:39",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 7865.23
+  },
+  {
+    "id": 18,
+    "date": "07/05/2020 às 17:39",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 845.23
+  },
+
+
+  {
+    "id": 19,
+    "date": "13/04/2020 às 13:21",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 5866.23
+  },
+
+  {
+    "id": 20,
+    "date": "15/04/2020 às 17:39",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 3445.23
+  },
+  {
+    "id": 21,
+    "date": "07/04/2020 às 17:39",
+    "bank": "Caixa Econômica Federal",
+    "account": "54387985-9",
+    "value": 20.23
+  },
+  {
+    "id": 22,
+    "date": "13/03/2020 às 13:21",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 2866.23
+  },
+
+  {
+    "id": 23,
+    "date": "04/03/2020 às 17:39",
+    "bank": "Caixa Econômica Federal",
+    "account": "54387985-9",
+    "value": 3145.23
+  },
+  {
+    "id": 24,
+    "date": "07/03/2020 às 17:39",
+    "bank": "Caixa Econômica Federal",
+    "account": "54387985-9",
+    "value": 3420.23
+  },
+  {
+    "id": 25,
+    "date": "21/02/2020 às 13:21",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 2866.23
+  },
+
+  {
+    "id": 26,
+    "date": "04/02/2020 às 17:39",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 3145.23
+  },
+  {
+    "id": 27,
+    "date": "23/02/2020 às 17:39",
+    "bank": "Caixa Econômica Federal",
+    "account": "54387985-9",
+    "value": 3420.23
+  },
+  {
+    "id": 28,
+    "date": "21/01/2020 às 13:21",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 286.23
+  },
+
+  {
+    "id": 29,
+    "date": "04/01/2020 às 17:39",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 1145.23
+  },
+  {
+    "id": 30,
+    "date": "01/01/2020 às 17:39",
+    "bank": "Caixa Econômica Federal",
+    "account": "54387985-9",
+    "value": 9420.23
+  },
+  {
+    "id": 31,
+    "date": "21/12/2019 às 12:1",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 2286.23
+  },
+
+  {
+    "id": 32,
+    "date": "04/12/2019 às 17:39",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 1145.23
+  },
+  {
+    "id": 33,
+    "date": "01/12/2019 às 17:39",
+    "bank": "Caixa Econômica Federal",
+    "account": "54387985-9",
+    "value": 9420.23
+  },
+  {
+    "id": 34,
+    "date": "22/12/2019 às 17:39",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 2145.23
+  },
+  {
+    "id": 35,
+    "date": "01/12/2019 às 17:39",
+    "bank": "Caixa Econômica Federal",
+    "account": "54387985-9",
+    "value": 10420.23
+  },
+  {
+    "id": 36,
+    "date": "01/11/2019 às 17:50",
+    "bank": "Caixa Econômica Federal",
+    "account": "54387985-9",
+    "value": 420.23
+  },
+  {
+    "id": 37,
+    "date": "22/11/2019 às 12:39",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 4145.23
+  },
+  {
+    "id": 38,
+    "date": "01/11/2019 às 17:39",
+    "bank": "Caixa Econômica Federal",
+    "account": "54387985-9",
+    "value": 3420.23
+  },
+
+  {
+    "id": 39,
+    "date": "12/12/2019 às 17:39",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 2145.23
+  },
+  {
+    "id": 40,
+    "date": "03/12/2019 às 17:39",
+    "bank": "Caixa Econômica Federal",
+    "account": "54387985-9",
+    "value": 10420.23
+  },
+  {
+    "id": 41,
+    "date": "02/11/2019 às 17:50",
+    "bank": "Caixa Econômica Federal",
+    "account": "54387985-9",
+    "value": 420.23
+  },
+  {
+    "id": 42,
+    "date": "24/11/2019 às 12:39",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 4145.23
+  },
+  {
+    "id": 43,
+    "date": "01/11/2019 às 17:39",
+    "bank": "Caixa Econômica Federal",
+    "account": "54387985-9",
+    "value": 3420.23
+  },
+  {
+    "id": 44,
+    "date": "02/10/2019 às 17:50",
+    "bank": "Caixa Econômica Federal",
+    "account": "54387985-9",
+    "value": 420.23
+  },
+  {
+    "id": 45,
+    "date": "24/10/2019 às 12:39",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 4045.23
+  },
+  {
+    "id": 46,
+    "date": "01/10/2019 às 17:39",
+    "bank": "Caixa Econômica Federal",
+    "account": "54387985-9",
+    "value": 2420.23
+  },
+  {
+    "id": 47,
+    "date": "02/10/2019 às 17:50",
+    "bank": "Caixa Econômica Federal",
+    "account": "54387985-9",
+    "value": 350.23
+  },
+  {
+    "id": 48,
+    "date": "24/10/2019 às 12:39",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 4145.23
+  },
+  {
+    "id": 49,
+    "date": "01/10/2019 às 17:39",
+    "bank": "Caixa Econômica Federal",
+    "account": "54387985-9",
+    "value": 3420.23
+  },
+  {
+    "id": 50,
+    "date": "12/09/2019 às 17:50",
+    "bank": "Caixa Econômica Federal",
+    "account": "54387985-9",
+    "value": 420.23
+  },
+  {
+    "id": 51,
+    "date": "22/09/2019 às 12:39",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 4145.23
+  },
+  {
+    "id": 52,
+    "date": "04/09/2019 às 17:39",
+    "bank": "Caixa Econômica Federal",
+    "account": "54387985-9",
+    "value": 3420.23
+  },
+  {
+    "id": 53,
+    "date": "10/09/2019 às 17:39",
+    "bank": "Caixa Econômica Federal",
+    "account": "54387985-9",
+    "value": 7420.23
+  },
+  {
+    "id": 54,
+    "date": "04/08/2020 às 17:39",
+    "bank": "Banco do Brasil",
+    "account": "51310055-9",
+    "value": 5145.23
+  },
+  {
+    "id": 55,
+    "date": "01/08/2020 às 17:39",
+    "bank": "Caixa Econômica Federal",
+    "account": "54387985-9",
+    "value": 7420.23
+  }
+ 
+
+
+]

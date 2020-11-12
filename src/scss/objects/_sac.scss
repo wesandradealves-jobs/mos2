@@ -1,0 +1,312 @@
+//TODO organizar em arquivos scss corretamente
+
+.input-error {
+  border: 1px solid $red;
+  transition: all .4s ease 0s;
+}
+
+#service-description {
+  margin-top: 30px;
+}
+
+.radio-buttons-container {
+  padding-top: 5px;
+}
+
+
+.file-selector {
+  position: relative;
+  label {
+    height: 36px;
+    width: 100%;
+    background-color: #f9f9f9;
+    border-color: #cbe6e1;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+  }
+  .button {
+    padding: 0 10px;
+    margin: 0 0;
+    width: unset;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+  }
+  input {
+    display: none;
+  }
+}
+
+div .active {
+  display: block;
+}
+
+.already-client,
+.club-desire {
+
+}
+
+//remove o placeholder do react-select
+div[class^=" css-"] div[class$="placeholder"] {
+  display: none;
+}
+
+.custom-control-label {
+  cursor: pointer;
+}
+
+div[class^=" css-"] div[class$="indicatorSeparator"] {
+  display: none;
+}
+
+div[class^=" css-"] div[class$="indicatorContainer"] {
+  display: none;
+}
+
+div[class^=" css-"] div[class$="-control"] {
+  height: 36px;
+}
+
+.form-input {
+  margin-top: 15px;
+}
+
+#club-desire-choice {
+  margin-left: 15px;
+}
+
+.customer-cluster-container {
+  margin-top: 15px;
+}
+
+.customer-cluster-icon {
+  height: 50px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.customer-cluster-label {
+  margin-left: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #6a6a6a;
+}
+
+.mall-and-support {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.support-channels {
+  padding-right: 25px;
+  padding-left: 30px;
+}
+
+.occurrence-fields-title {
+  margin-left: 0;
+}
+
+.occurrence-fields {
+  //padding-left: 25px;
+  margin-top: 25px;
+  //padding-right: 25px;
+}
+
+.attachment-placeholder,
+.filename {
+  vertical-align: sub;
+  padding-left: 10px;
+}
+
+.add-button {
+  padding: 0 5px;
+  margin: 0 0;
+  width: unset;
+  position: absolute;
+  top: 5px;
+  right: 8px;
+}
+
+.vehicle-toggle-switch {
+  margin-top: 20px;
+  //margin-right: 90px;
+  right: 0;
+  //position: absolute;
+  display: flex;
+  justify-content: end;
+}
+
+.toggle-switch-label {
+  padding-right: 10px;
+  padding-top: 2px;
+}
+
+.vehicle-data {
+  display: block;
+}
+
+.club-contract {
+  display: none;
+}
+
+.attachment-container-edition-mode .file-selector {
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: .4;
+}
+
+.ticket-history-title {
+  text-align: center;
+}
+.ticket-history-title, .ticket-history-user-initials, .ticket-history-user-name {
+  color: #563062;
+}
+
+.ticket-history-user-name {
+  display: inline;
+}
+
+.ticket-history-user-initials {
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ticket-history-user {
+  display: flex;
+  align-items: center;
+  border: 0;
+  background-color: transparent;
+  margin: 0 auto;
+  font-family: $font-family;
+  float: left;
+  padding-top: 15px;
+  padding-left: 10px;
+
+  > .image {
+      width: 40px;
+      height: 40px;
+      border-radius: 32px;
+      background-color: #CCC;
+      margin: 0;
+  }
+}
+
+.show-ticket-history-label {
+  color: $dark-turquoise;
+  margin-top: 30px;
+}
+
+.ticket-comment {
+  margin-top: 30px;
+}
+
+.comment-datetime, .comment-reply {
+  color: rgb(170, 170, 170);
+}
+
+.comment-reply {
+  margin-top: 5px;
+}
+
+.ticket-history-container {
+  margin-left: 25px;
+  margin-top: 50px;
+}
+
+.ticket-comment-content {
+  margin-left: 80px;
+}
+
+.comment-history-actions {
+  border-radius: 5px;
+  border: solid 1px #dcdcdc;
+  display: inline;
+  background-color: $white-blue;
+  padding: 5px 15px 5px 15px;
+}
+
+.comment-history-actions-container {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.ticket-history-comment-input {
+  margin-top: 20px;
+}
+
+.new-comment {
+  margin-top: 20px;
+  width: 98% !important;
+}
+
+.comment-container {
+  margin-left: -10px;
+  padding-left: 0;
+}
+
+.status-box {
+  border-radius: 5px;
+  border: solid 1px #dcdcdc;
+  display: inline;
+  padding: 5px 15px 5px 15px;
+  color: white;
+  float: right;
+
+  &.concluded {
+    background-color: #76a47c;
+  }
+
+  &.on-going {
+    background-color: #e6bf02;
+  }
+
+  &.finished {
+    background-color: #A43043;
+  }
+}
+
+.status-box-container {
+  margin-top: 15px;
+  margin-bottom: 40px;
+  width: 500px;
+  display: flex;
+}
+
+.form-header {
+  margin-left: 25px;
+}
+
+.status-label {
+  align-self: center;
+}
+
+.breadcrumbs-parts, .ticket-number-label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: $dark-grey;
+}
+
+.ticket-info {
+  padding-left: 80px;
+}
+
+.ticket-number {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+  color: $dark-grey;
+}
+
+.ticket-actions {
+  margin-left: 85px;
+  margin-top: 10px;
+}
+
+.print-icon {
+  width: 1.5rem;
+  cursor: pointer;
+}

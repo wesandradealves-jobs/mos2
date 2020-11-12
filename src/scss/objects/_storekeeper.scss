@@ -1,0 +1,340 @@
+.extract-actions {
+  max-width: 200px;
+  // margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+
+  .button-accept {
+    display: block;
+    margin:auto;
+    font-weight: 600;
+    @include font-size(10);
+    cursor: pointer;
+    opacity: 1;
+    background: $turquoise;
+    color: #fff;
+    padding: 8px 15px;
+    margin: 0;
+    width: auto;
+    border: none;
+    border-radius: 20px !important;
+
+    &:hover {
+      transition: all .4s ease 0s;
+      opacity: 0.8;
+    }
+
+    &:focus {
+      outline: 0;
+      box-shadow: none;
+    }
+  }
+
+  .button-reverse {
+    display: block;
+    margin:auto;
+    font-weight: 600;
+    @include font-size(10);
+    cursor: pointer;
+    opacity: 1;
+    background: $grey;
+    color: #fff;
+    padding: 8px 15px;
+    margin-left: 5px;
+    width: auto;
+    border: none;
+    border-radius: 20px !important;
+
+    &:hover {
+      transition: all .4s ease 0s;
+      opacity: 0.8;
+    }
+
+    &:focus {
+      outline: 0;
+      box-shadow: none;
+    }
+  }
+}
+
+.extract-processed {
+  max-width: 200px;
+  // margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+
+  img {
+    height: 28px;
+    width: 28px;
+    margin-right: 10px;
+  }
+
+  p {
+    line-height: 28px;
+    margin: auto 0;
+  }
+}
+
+.modal-acceptTransaction {
+  flex: 1;
+  padding: 3.4% 13.25% 7.6%;
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    h5 {
+      color: $purple;
+    }
+    p {
+      color: #706F6F
+    }
+  }
+
+  .subtitle {
+    text-align: center;
+    color: #706F6F
+  }
+
+  .cards {
+    margin-top: 25px;
+    margin-right: 5px;
+    max-height: 400px;
+    overflow-y: auto;
+
+    .card {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      border: 0;
+      border-bottom: 1px solid $light-grey;
+
+      .left {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border: 0;
+        padding: 12px 0;
+
+        img {
+          height: 17px;
+          width: 40px;
+        }
+
+        h6 {
+          margin-left: 20px;
+          color: #706F6F;
+        }
+      }
+
+      > h6 {
+        color: $green;
+      }
+    }
+  }
+
+  .row-btn-save {
+    margin-top: 40px;
+  }
+}
+
+
+.transfer-side-header {
+
+  margin-top: 30px;
+
+  .balance {
+    h5 {
+      text-align: left;
+      margin-bottom: 35px;
+    }
+    h1 {
+      color: #707070;
+      margin-bottom: 30px;
+      font-weight: 500;
+    }
+    button {
+      margin: 0;
+      @include font-size(12);
+      padding: 9px 25px;
+    }
+  }
+
+  .accounts {
+    margin-top: 45px;
+    padding-top: 45px;
+
+    border-top: 1px solid $light-grey;
+
+    h5 {
+      text-align: left;
+      margin-bottom: 30px;
+    }
+
+    .account {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      padding: 10px;
+      margin-bottom: 10px;
+
+      .bank {
+        display: flex;
+        align-items: center;
+
+
+        .avatar {
+            width: 57px;
+            height: 57px;
+            line-height: 57px;
+            background: #EEEEEF;
+            color: $purple;
+            text-align: center;
+            border-radius: 50%;
+            margin: 0 auto;
+            @include font-size(16);
+            margin-right: 15px;
+        }
+
+        .bankDetails {
+          display: flex;
+          flex-direction: column;
+          align-items: justify-content;
+          font-family: 'Arvo', Helvetica, Arial, sans-serif;
+          @include font-size(12);
+
+          strong {
+            color: $purple;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+          }
+
+          p {
+            font-family:  'Roboto Mono, Helvetica, Arial, sans-serif';
+            font-weight: 300;
+            margin: 0;
+            color: #282828
+          }
+
+        }
+      }
+      button {
+        background: transparent;
+        border: 0;
+
+        &:focus {
+          outline: 0;
+        }
+
+        &:hover {
+          opacity: 0.7;
+        }
+
+        img {
+          width: 15px;
+          height: 15px;
+        }
+      }
+    }
+  }
+}
+
+.modal-newTransfer {
+  flex: 1;
+  padding: 3.4% 13.25% 7.6%;
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    h5 {
+      color: $purple;
+    }
+  }
+
+  .subtitle {
+    text-align: center;
+    color: #706F6F;
+  }
+
+  .transferValue {
+    margin-bottom: 40px;
+
+    label {
+      font-family: 'Arvo', Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      color: #707070;
+      font-weight: 400;
+    }
+
+    input {
+      border: 0;
+      outline: 0;
+      border-bottom: 1px solid gray;
+      border-radius: 0;
+      background: #fff;
+      width: auto;
+      height: 56px;
+      padding-left: 0px;
+      font-size: 32px;
+      color: #707070;
+      font-weight: 400;
+      font-family: 'Arvo', Helvetica, Arial, sans-serif;
+
+
+      &::placeholder {
+        font-size: 32px;
+        color: #707070;
+        font-weight: 400;
+        font-family: 'Arvo', Helvetica, Arial, sans-serif;
+      }
+    }
+  }
+
+  .details {
+    .bank {
+      margin:0;
+
+      .name {
+        padding: 0;
+      }
+
+      .agency {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+      }
+    }
+
+    .account {
+      display: flex;
+       flex-direction: row;
+    }
+
+    .number {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+    }
+
+    .digit {
+      display: flex;
+      flex-direction: column;
+      width: 40px;
+      padding-left: 5px;
+    }
+
+
+  }
+
+  .row-btn-save {
+    margin-top: 40px;
+  }
+}

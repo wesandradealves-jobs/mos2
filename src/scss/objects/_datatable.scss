@@ -1,0 +1,24 @@
+.content .MuiPaper-elevation4 {
+  box-shadow: none;
+}
+
+.MuiTable-root, .MUIDataTable-tableRoot-528 {
+  margin-top: 40px;
+
+}
+// .MuiMenuItem-root {
+//   color: $purple !important;
+// }
+
+.MuiMenuItem-root:hover {
+  font-weight: bold !important;
+  color: $purple !important;
+  opacity: none !important;
+}
+
+// .MuiIconButton-root {
+//   color: $purple !important;
+// }
+// .MuiTableCell-body {
+//   color: $dark-grey !important;
+// }

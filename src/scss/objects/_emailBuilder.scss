@@ -1,0 +1,63 @@
+@media (max-width:1060px) {
+  .emailBuilderShow {
+    display: none;
+    min-width: 1060px;
+  }
+  .emailBuilderMinWidth {
+    display: flex
+  }
+}
+
+@media (min-width:1060px) {
+  .emailBuilderShow {
+    display: block;
+  }
+  .emailBuilderMinWidth {
+    display: none
+  }
+}
+
+.emailBuilderMinWidth {
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  // min-height: 500px;
+  margin: auto;
+  width: 70%;
+  text-align: center;
+  font-family: 'Roboto Mono' , Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  @include font-size(24);
+  @include line-height(32);
+  letter-spacing: 0px;
+  color: #707070;
+}
+
+.emailBuilder {
+
+  .row-margin {
+    margin-bottom: 15px !important;
+  }
+
+  .header {
+      display: block;
+      text-align: center;
+      color: #563062;
+      font-weight: 600;
+  }
+
+  .editorborder {
+    border: 1px solid #cbe6e1 !important;
+    padding: 3px;
+  }
+
+  .email-buttons {
+      margin: 0 auto;
+      display: flex;
+      max-width: 400px;
+  }
+
+  .form-error {
+    border-color: #c53030 !important;
+  }
+}
